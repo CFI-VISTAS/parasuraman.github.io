@@ -37,7 +37,8 @@
       width: min(1120px, calc(100% - 36px));
       margin: 0 auto;
     }
-
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 30px; align-items: end; }
+.avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent); margin-bottom: 15px; }
     header {
       padding: 46px 0 30px;
       border-bottom: 1px solid var(--line);
